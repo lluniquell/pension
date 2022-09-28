@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+<
+style type ="text /css ">body {
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#first {
+	width: 1100px;
+	height: 33px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	padding-top: 7px;
+	background: #000000;
+	color: white;
+	padding-top: 7px;
+}
+
+#second {
+	width: 1100px;
+	height: 60px;
+	margin: auto;
+}
+
+#second>#left {
+	width: 300px;
+	height: 60px;
+}
+
+#second>#right {
+	width: 800px;
+	height: 60px;
+}
+
+#second>#left, #second>#right {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+
+#second>#right>ul>li {
+	list-style-type: none;
+	display: inline-block;
+	width: 120px;
+
+}
+
+#second>#right>#main { /* 주메뉴 */
+	position: relative;
+	vertical-align: top;
+}
+
+#second>#right>ul>#main>.sub { /* 부메뉴 */
+	visibility: hidden;
+	position: absolute;
+	vertical-align: top;
+	list-style-type: none;		
+	width: 100px;
+	height: 70px;
+	font-size: 17px;
+	padding-left:0px;
+}
+
+
+#second>#right>#main>.sub>li {
+	list-style-type: none;
+
+}
+
+#third {
+	width: 1100px;
+	height: 400px;
+	margin: auto;
+}
+
+
+#third #image {
+	width: 1100px;
+	height: 400px;
+	margin: auto;
+}
+
+#third #image #outer {
+	width: 1100px;
+	height: 400px;
+	overflow: hidden;
+}
+
+#third #image #inner {
+	width: 5500px;
+	height: 400px;
+}
+
+#fourth {
+	width: 1100px;
+	height: 130px;
+	margin: auto;
+}
+
+#fourth>div {
+	width: 350px;
+	height: 130px;
+	border: 1px solid gray;
+	display: inline-block;
+}
+
+
+#fifth {
+	width: 1100px;
+	height: 150px;
+	margin: auto;
+}
+
+#fifth>div {
+	width: 210px;
+	height: 150px;
+	border: 1px solid gray;
+	display: inline-block;
+}
+
+#sixth {
+	width: 1100px;
+	height: 80px;
+	margin: auto;
+	text-align: center;
+}
+</
+style
+>
